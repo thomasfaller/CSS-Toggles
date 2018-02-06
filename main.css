@@ -1,0 +1,67 @@
+/* MAIN SWITCHES */
+
+input[type=checkbox].toggle-switch {
+    appearance: none;
+    -moz-appearance: none;
+    -ms-progress-appearance: none;
+    -webkit-appearance: none;
+    width: 6em;
+    height: 3em;
+    border-radius: 3em;
+    outline: 0;
+    cursor: pointer;
+    position: relative;
+
+    background-color: lightgrey;
+    transition: background-color .3s ease-in-out;
+}
+input[type=checkbox].toggle-switch:checked {
+    background-color: lightgreen;
+}
+input[type=checkbox].toggle-switch::after {
+    content: "";
+    width: 3em;
+    height: 3em;
+    border-radius: 3em;
+    background-color: #fff;
+    position: absolute;
+    transform: scale(.8);
+    left: 0;
+    transition: left .3s ease-in-out;
+}
+input[type=checkbox].toggle-switch:checked::after {
+    left: 3em;   
+}
+
+
+/* SQUARE SWITCHES */
+input[type=checkbox].toggle-switch-square {
+    appearance: none;
+    -moz-appearance: none;
+    -ms-progress-appearance: none;
+    -webkit-appearance: none;
+    width: 6em;
+    height: 3em;
+    outline: 0;
+    cursor: pointer;
+    position: relative;
+
+    background-color: lightgrey;
+    transition: background-color .3s ease-in-out;
+}
+input[type=checkbox].toggle-switch-square:checked {
+    background-color: lightgreen;
+}
+input[type=checkbox].toggle-switch-square::after {
+    content: "";
+    width: 3em;
+    height: 3em;
+    background-color: #fff;
+    position: absolute;
+    transform: scale(.8);
+    left: 0;
+    transition: left .3s ease-in-out;
+}
+input[type=checkbox].toggle-switch-square:checked::after {
+    left: 3em;   
+}
