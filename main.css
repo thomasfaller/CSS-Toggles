@@ -5,20 +5,20 @@ body {
 /* CONTAINERS */
 
 .container {
-    padding: 0 25px 25px 25px;
+    padding: 7px 25px 25px 25px;
     max-width: 640px;
     margin: 0 auto;
-    /* border: solid 10px #eaedfd; */
     background-color: #fff;
 }
-/* .wrapper {
-    border: solid 1px lightblue;
-} */
+.wrapper {
+    margin: 0 auto;
+    border: solid 1px white;
+}
 
 /* TYPOGRAPHY */
-h1 {
+h2 {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 200;
+    font-weight: 300;
     color: darkslategray;
 }
 
